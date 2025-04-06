@@ -1,0 +1,14 @@
+
+pandas
+numpy
+torch           
+jupyterlab
+ipywidgets
+sentencepiece
+
+ollama
+faiss-cpu
+langchain
+transformers
+sentence-transformers
+accelerate
