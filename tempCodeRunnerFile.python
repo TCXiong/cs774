@@ -1,0 +1,5 @@
+   for source_id, matches in candidate_matches.items():
+        print(f"Record {source_id} in larger dataset matches with:")
+        for score, target_id in matches:
+            print(f"\tRecord {target_id} in smaller dataset (score: {score:.4f})")
+        break
