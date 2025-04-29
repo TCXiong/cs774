@@ -7,3 +7,5 @@ small_files
 table1_embeddings.pkl
 table2_embeddings.pkl
 entity_matches.csv
+data/*
+results/*
