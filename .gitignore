@@ -3,3 +3,7 @@ venv
 files
 small_files
 .virtual_documents
+.env
+table1_embeddings.pkl
+table2_embeddings.pkl
+entity_matches.csv
