@@ -9,3 +9,7 @@ table2_embeddings.pkl
 entity_matches.csv
 data/*
 results/*
+walmart_amazon
+Abt-Buy
+DBLP-Scholar
+.DS_Store
