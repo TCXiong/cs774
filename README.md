@@ -15,7 +15,7 @@ This project explores efficient blocking strategies for entity matching in large
 
 ## Codebase Overview
 
-### 1. `rule_based_blocking.py`  
+### 1. `blocking_abt-buy.py`  `blocking_dblp-scholar.py`
 **Purpose**: Implements heuristic blocking using exact/fuzzy string matching on product attributes (name, brand).  
 **Key Features**:  
 - Normalizes text (lowercase, remove punctuation).  
@@ -24,7 +24,7 @@ This project explores efficient blocking strategies for entity matching in large
 
 ---
 
-### 2. `ngram_tfidf_blocking.py`  
+### 2. `tf_idf.py`  
 **Purpose**: Two-stage blocking using character-level n-grams and TF-IDF cosine similarity.  
 **Key Features**:  
 - Builds an inverted index for fast candidate retrieval.  
@@ -33,7 +33,7 @@ This project explores efficient blocking strategies for entity matching in large
 
 ---
 
-### 3. `faiss_semantic_blocking.py`  
+### 3. `blocking_with_faiss.ipynb`  `blocking_faiss_gpu.py`
 **Purpose**: Leverages Sentence-BERT embeddings and FAISS for GPU-accelerated semantic blocking.  
 **Key Features**:  
 - Encodes text using `all-MiniLM-L6-v2` embeddings.  
