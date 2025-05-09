@@ -13,7 +13,7 @@ This project explores efficient blocking strategies for entity matching in large
 
 ---
 
-## Codebase Overview
+## Main Files Overview
 
 ### 1. `blocking_abt-buy.py`  `blocking_dblp-scholar.py`
 **Purpose**: Implements heuristic blocking using exact/fuzzy string matching on product attributes (name, brand).  
